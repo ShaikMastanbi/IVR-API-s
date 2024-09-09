@@ -1,0 +1,10 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to  corporate client related QA APIs "
+  contactDetails:
+    name: "Shaik - QA Lead"
+    email: "skmastanbi523@gmail.com"
+  onCallSupport:
+    - 9121906387

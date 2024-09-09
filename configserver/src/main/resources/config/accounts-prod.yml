@@ -1,0 +1,10 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to  accounts related prod APIs "
+  contactDetails:
+    name: "Mastanbi - Product Owner"
+    email: "skmastanbi523@gmail.com"
+  onCallSupport:
+    -9121906387

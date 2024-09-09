@@ -1,0 +1,33 @@
+server:
+  port: 9043
+
+spring:
+  application:
+    name: "securityapplication"
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/ivraccounts?serverTimezone=UTC
+    username: root
+    password: Mastanbi@12
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+info:
+  app:
+    name: "accounts"
+    description: " Bank Accounts Application"
+    version: "1.0.0"

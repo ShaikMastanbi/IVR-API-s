@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to accounts related local APIs "
+  contactDetails:
+    name: "Mastanbi - Developer"
+    email: "skmastanbi523@gmail.com"
+  onCallSupport:
+    - 9121906387
+
